@@ -60,7 +60,7 @@ a{
 .container{
     margin: 0 auto;
     max-width: 1080px;
-   
+      
 }
 
 /*Header*/
@@ -95,6 +95,7 @@ header .navbar{
    align-items: center;
    border-top: 2px solid #fbfbfb;
    border-bottom: 2px solid #fbfbfb;
+  
 }
 
 
@@ -161,9 +162,40 @@ header .navbar{
 }
 
 .section__art img:hover{
-    border: 2px solid #fbfbfb;
+    border: 5px solid #fbfbfb;
     transition: all .5s ease-in-out;
  }
 
+/*Footer*/
 
+.footer{
+    background-image:linear-gradient(to top, #fbeff1, #d9ced3, #b7afb6, #959199, #74747c);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+   
+    
+}   
 
+.footer__sect{
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid #fbfbfb;
+    border-bottom: 2px solid #fbfbfb;
+    justify-content: space-between;
+   height: 15vh;
+
+}
+
+.footer__sect .footer__block{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2em;
+   
+}
+
+.copyright{
+    text-align: center;
+    font-size: 1.2em;
+}
