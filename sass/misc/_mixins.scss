@@ -1,0 +1,19 @@
+/*Helpers*/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+
+}

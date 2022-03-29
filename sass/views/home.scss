@@ -1,0 +1,43 @@
+/*Main*/
+
+
+.presentation {
+    text-align: center;
+    padding: 2rem;
+
+    h1 {
+        font-weight: bold;
+        font-size: 5em;
+    }
+
+    p {
+    font-family: var(--font-secundary);
+    font-size: 3em;
+    }
+
+&__section {
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+row-gap: 20px;
+}
+
+}
+
+
+.section__art {
+    text-align: center;
+    font-size: 1.2em;
+    
+    img {
+        border: 10px solid #816c64;
+        border-radius: .45rem;
+        height: 40vh;
+        width: 40vh;
+        margin: 0.5rem 1rem;
+        &:hover {
+            border: 5px solid #fbfbfb;
+            transition: all .5s ease-in-out;
+        }
+    }   
+}

@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Globals*/
+
+html {
+    font-size: 62.5%;
+    font-family: $font-primary;
+
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    background-color: $principal;
+}
+
+ul {
+    list-style: none;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: $secundary;
+}
+
+/*Helpers*/
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+
+}
