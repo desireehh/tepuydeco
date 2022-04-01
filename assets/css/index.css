@@ -1,4 +1,16 @@
 /*Variables*/
+.sp-xlarge {
+  padding: 5rem; }
+
+.sp-large {
+  padding: 3rem; }
+
+.sp-medium {
+  padding: 2rem; }
+
+.sp-small {
+  padding: 1.5rem; }
+
 *,
 *::after,
 *::before {

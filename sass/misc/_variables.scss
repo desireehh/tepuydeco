@@ -6,4 +6,15 @@
     $font-primary: 'Lato', sans-serif;
     $font-secundary: 'Rochester', cursive;
 
+$spacings:(
+    xlarge: 5rem,
+    large: 3rem,
+    medium: 2rem,
+    small: 1.5rem,
+);
 
+@each $var, $val in $spacings{
+    .sp-#{$var}{
+        padding: #{$val};
+    }
+}
