@@ -2,7 +2,7 @@
 /*Footer*/
 
 .footer {
-    background-image: linear-gradient(to top, #fbeff1, #d9ced3, #b7afb6, #959199, #74747c);
+    background-image: $secundary;
     display: flex;
     flex-direction: column;
     width: 100%;
