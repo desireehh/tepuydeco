@@ -21,6 +21,6 @@
 @mixin fontStyle($color, $fontSize, $fontWeight){
     font-size: $fontSize;
     color:$color;
-    font-weight: $fontWeight;
+    font-weight: $fontWeight; 
 }
 
