@@ -17,3 +17,10 @@
     max-width: 1080px;
 
 }
+
+@mixin fontStyle($color, $fontSize, $fontWeight){
+    font-size: $fontSize;
+    color:$color;
+    font-weight: $fontWeight;
+}
+

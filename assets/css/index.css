@@ -80,8 +80,7 @@ header {
 .navbar-menu {
   background-image: linear-gradient(to top, #fbeff1, #d9ced3, #b7afb6, #959199, #74747c);
   height: inherit;
-  border-top: 2px solid #fbfbfb;
-  border-bottom: 2px solid #fbfbfb; }
+  border-bottom: 1px solid #fbfbfb; }
   .navbar-menu ul {
     justify-content: center; }
     .navbar-menu ul .navbar-item {
@@ -91,19 +90,16 @@ header {
       .navbar-menu ul .navbar-item a {
         padding: 1rem 2rem;
         margin: 0 3rem;
-        font-size: 1.6em; }
+        font-size: 1.5em; }
         .navbar-menu ul .navbar-item a:hover {
-          background-color: #f6d0d5;
-          border-bottom: 2px solid #fbfbfb;
-          transition: all .5s ease-in-out;
-          font-size: 1.2em; }
+          border: 2px solid #fbfbfb;
+          transition: all .2s ease-in-out; }
 
 /*media queries*/
 @media screen and (max-width: 840px) {
   .navbar-menu ul {
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 1.5em;
     padding: 5px 2px; }
   .navbar-menu .navbar-item a {
     padding: .5rem .5rem;
@@ -116,11 +112,8 @@ header {
     align-items: center;
     font-size: 1em; }
   .navbar-menu .navbar-item:hover {
-    background-color: #f6d0d5;
     border-bottom: 2px solid #fbfbfb;
-    transition: all .5s ease-in-out;
-    font-size: 1.2em;
-    width: 100%;
+    transition: all .3s ease-in-out;
     justify-content: center; } }
 
 /*Footer*/
@@ -157,11 +150,14 @@ header {
   text-align: center;
   padding: 2rem; }
   .presentation h1 {
-    font-weight: bold;
-    font-size: 5em; }
+    font-size: 5em;
+    color: #000;
+    font-weight: bold; }
   .presentation p {
-    font-family: var(--font-secundary);
-    font-size: 3em; }
+    font-size: 3em;
+    color: #000;
+    font-weight: lighter;
+    font-family: "Rochester", cursive; }
   .presentation__section {
     flex-wrap: wrap;
     width: 100%;

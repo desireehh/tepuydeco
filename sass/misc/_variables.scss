@@ -6,7 +6,8 @@
     $font-primary: 'Lato', sans-serif;
     $font-secundary: 'Rochester', cursive;
 
-$spacings:(
+
+    $spacings:(
     xlarge: 5rem,
     large: 3rem,
     medium: 2rem,
@@ -18,3 +19,5 @@ $spacings:(
         padding: #{$val};
     }
 }
+
+

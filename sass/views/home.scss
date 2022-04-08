@@ -6,13 +6,13 @@
     padding: 2rem;
 
     h1 {
-        font-weight: bold;
-        font-size: 5em;
+        @include fontStyle($secundary, 5em, bold)
     }
 
     p {
-    font-family: var(--font-secundary);
-    font-size: 3em;
+        @include fontStyle($secundary, 3em,lighter);
+        font-family: $font-secundary;
+    
     }
 
 &__section {
