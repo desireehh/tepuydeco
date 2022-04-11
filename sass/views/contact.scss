@@ -2,21 +2,38 @@
     @include btn(#74747c, $secundary, 'false')
 }
 
-form{
-    background-color: #f7f7f9;
-    padding: 20px;
-    border-radius: 5px;
-    width: 40vh;
+.contact{
+    gap: 50px;
+    padding: 3em;
+    .sect-form{
+        h2{
+            text-align: center;
+            padding: 1em;
+        } 
+        form{
+            background-color: #dedeed;
+            padding: 2rem;
+            border-radius: 5px;
+            width: 25em;
+            
+            p{
+                padding-top: 1.5rem;
+                padding-bottom: 0.5rem;
+            }
+            input{
+                display: flex;
+                align-items: center;
+                width: 15em;
+                height: 2em;
+                padding: 0.5rem;
+                border-radius: 5px;
+                border-color: solid 1px #f7f7fc;
+               
+            }
+            textarea{
+                @extend input;
+                height:7em;
+            }
+        }  
+    }
 }
-
-input{
-    display: flex;
-    align-items: center;
-    width: 15em;
-    height: 20px;
-}
-
-textarea{
-    width: 15em;
-}
-

@@ -186,17 +186,27 @@ header {
   text-align: center;
   display: inline-block; }
 
-form {
-  background-color: #f7f7f9;
-  padding: 20px;
-  border-radius: 5px;
-  width: 40vh; }
-
-input {
-  display: flex;
-  align-items: center;
-  width: 15em;
-  height: 20px; }
-
-textarea {
-  width: 15em; }
+.contact {
+  gap: 50px;
+  padding: 3em; }
+  .contact .sect-form h2 {
+    text-align: center;
+    padding: 1em; }
+  .contact .sect-form form {
+    background-color: #dedeed;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 25em; }
+    .contact .sect-form form p {
+      padding-top: 1.5rem;
+      padding-bottom: 0.5rem; }
+    .contact .sect-form form input, .contact .sect-form form textarea {
+      display: flex;
+      align-items: center;
+      width: 15em;
+      height: 2em;
+      padding: 0.5rem;
+      border-radius: 5px;
+      border-color: solid 1px #f7f7fc; }
+    .contact .sect-form form textarea {
+      height: 7em; }
