@@ -18,7 +18,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
-    background-color: $principal;
+    background-color: $primary;
 }
 
 ul {
@@ -50,3 +50,5 @@ a {
     max-width: 1080px;
 
 }
+
+

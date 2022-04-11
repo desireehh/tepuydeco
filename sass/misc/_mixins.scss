@@ -24,3 +24,16 @@
     font-weight: $fontWeight; 
 }
 
+@mixin btn($background-color, $color, $bold) {
+    background-color: $background-color;
+    color: $color;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+
+    @if ($bold=='true') {
+        font-weight: bold;
+    }
+}
+

@@ -1,4 +1,5 @@
 /*Variables*/
+/*MAPA*/
 .sp-xlarge {
   padding: 5rem; }
 
@@ -176,3 +177,26 @@ header {
     .section__art img:hover {
       border: 5px solid #fbfbfb;
       transition: all .5s ease-in-out; }
+
+.btn {
+  background-color: #74747c;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block; }
+
+form {
+  background-color: #f7f7f9;
+  padding: 20px;
+  border-radius: 5px;
+  width: 40vh; }
+
+input {
+  display: flex;
+  align-items: center;
+  width: 15em;
+  height: 20px; }
+
+textarea {
+  width: 15em; }
