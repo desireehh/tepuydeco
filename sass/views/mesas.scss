@@ -1,0 +1,29 @@
+/*MESAS*/
+
+.products{
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    flex-wrap: wrap;
+
+    .sect-img{
+        img{
+            height: auto;
+            max-width: 20em;
+            border: 10px solid #816c64;
+            border-radius: 5px;
+
+        }
+    }
+    .products-article{
+        max-width: 20em;
+        .section-prod{
+            gap: 2em;
+            padding: 0.5em;
+         
+        }
+
+    }  
+}
+
