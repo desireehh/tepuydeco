@@ -46,9 +46,11 @@ header {
                 position: absolute;
 
                 .sub-menu__link {
+                    background-color: #fbfbfb;
                     padding: 0.5rem;
                     font-size: 0.8em;
                     transition: all .3s ease-in-out;
+
 
                     &:hover {
                         background-color:#f6d0d5;

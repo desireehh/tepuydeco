@@ -10,19 +10,19 @@
     }
 
     p {
-        @include fontStyle($secundary, 3em,lighter);
+        @include fontStyle($secundary, 3em, lighter);
         font-family: $font-secundary;
-    
+
     }
 
-&__section {
-flex-wrap: wrap;
-width: 100%;
-justify-content: center;
-row-gap: 20px;
-max-width: 900px;
+    &__section {
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        row-gap: 20px;
+        max-width: 900px;
 
-}
+    }
 
 }
 
@@ -30,18 +30,21 @@ max-width: 900px;
 .section__art {
     text-align: center;
     font-size: 1.2em;
-}
-    
-    
-.img-border {
-        border: 10px solid #816c64;
-        border-radius: 5px;
-        height: 40vh;
-        width: 40vh;
-        margin: 0.5rem 1rem;
-        &:hover {
-            border: 5px solid #fbfbfb;
-            transition: all .5s ease-in-out;
-        }
-    }   
+    padding: 2em;
 
+    .img-border {
+        img {
+            border: 10px solid #816c64;
+            border-radius: 5px;
+            height: 40vh;
+            width: 40vh;
+            margin: 0.5rem 1rem;
+            gap: 20em;
+
+            &:hover {
+                border: 5px solid #fbfbfb;
+                transition: all .5s ease-in-out;
+            }
+        }
+    }
+}
