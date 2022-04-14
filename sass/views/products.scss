@@ -6,12 +6,12 @@
     padding: 2rem;
 
     h1 {
-        @include fontStyle($secundary, 5em, bold)
+        @include fontStyle($secondary, 5em, bold)
     }
 
     p {
-        @include fontStyle($secundary, 3em, lighter);
-        font-family: $font-secundary;
+        @include fontStyle($secondary, 3em, lighter);
+        font-family: $font-secondary;
 
     }
 
