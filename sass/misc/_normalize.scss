@@ -29,12 +29,13 @@ ul {
 a {
     text-decoration: none;
     color: $color-font;
-    display: inline-block}
+    display: block}
 
 /*Helpers*/
 
 .flex-row {
     display: flex;
+    flex-flow: row wrap;
 }
 
 .flex-column {
