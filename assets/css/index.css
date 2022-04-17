@@ -36,7 +36,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #ababb1;
   display: inline-block; }
 
 /*Helpers*/
@@ -190,9 +190,9 @@ header {
     font-weight: bold; }
   .presentation p {
     font-size: 3em;
-    color: #000;
+    color: #ababb1;
     font-weight: lighter;
-    font-family: "Rochester", cursive; }
+    font-family: #000; }
   .presentation__section {
     flex-wrap: wrap;
     width: 100%;
@@ -205,7 +205,7 @@ header {
   font-size: 1.2em; }
 
 .img-border {
-  border: 10px solid #816c64;
+  border: 1px solid #ababb1;
   border-radius: 5px;
   height: 40vh;
   width: 40vh;
@@ -216,7 +216,7 @@ header {
 
 .btn {
   background-color: #74747c;
-  color: #000;
+  color: #ababb1;
   border-radius: 5px;
   padding: 5px;
   text-align: center;
@@ -279,11 +279,11 @@ header {
   padding: 2rem; }
   .presentation h1 {
     font-size: 5em;
-    color: #000;
+    color: #ababb1;
     font-weight: bold; }
   .presentation p {
     font-size: 3em;
-    color: #000;
+    color: #ababb1;
     font-weight: lighter;
     font-family: "Rochester", cursive; }
   .presentation__section {

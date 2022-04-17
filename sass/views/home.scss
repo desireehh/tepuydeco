@@ -6,12 +6,12 @@
     padding: 8rem;
 
     h1 {
-        @include fontStyle($secondary, 5em, bold)
+        @include fontStyle($color-font, 5em, bold)
     }
 
     p {
         @include fontStyle($secondary, 3em,lighter);
-        font-family: $font-secondary;
+        font-family: $color-font;
     
     }
 
@@ -34,7 +34,7 @@ max-width: 800px;
     
     
 .img-border {
-        border: 10px solid #816c64;
+        border: 1px solid $secondary;
         border-radius: 5px;
         height: 40vh;
         width: 40vh;
