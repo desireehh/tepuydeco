@@ -36,7 +36,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #ababb1;
+  color: #070404;
   display: inline-block; }
 
 /*Helpers*/
@@ -88,7 +88,7 @@ header {
     flex-grow: 1;
     font-size: 1.5em; }
     .menu__item:hover {
-      background-color: #fbfbfb;
+      background-color: #fadbdb;
       transition: all .5s ease-in-out; }
     .menu__item .sub-menu {
       display: none;
@@ -155,11 +155,11 @@ header {
   padding: 8rem; }
   .presentation h1 {
     font-size: 5em;
-    color: #030101;
+    color: #070404;
     font-weight: bold; }
   .presentation p {
     font-size: 3em;
-    color: #030101;
+    color: #070404;
     font-weight: lighter;
     font-family: "Rochester", cursive; }
   .presentation__section {
