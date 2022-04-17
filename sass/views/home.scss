@@ -10,8 +10,8 @@
     }
 
     p {
-        @include fontStyle($secondary, 3em,lighter);
-        font-family: $color-font;
+        @include fontStyle($color-font, 3em,lighter);
+        font-family: $font-secondary;
     
     }
 
