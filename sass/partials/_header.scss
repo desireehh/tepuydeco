@@ -31,10 +31,11 @@ header {
         padding: 1rem;
         flex-grow: 1;
         font-size: 1.5em;
+        align-items: center;
+
 
         &:hover {
-            background-color: #fadbdb;
-            transition: all .5s ease-in-out;
+            border-bottom: 2px solid $secondary;
         }
 
         .sub-menu {

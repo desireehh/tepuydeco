@@ -88,10 +88,10 @@ header {
   .menu__item {
     padding: 1rem;
     flex-grow: 1;
-    font-size: 1.5em; }
+    font-size: 1.5em;
+    align-items: center; }
     .menu__item:hover {
-      background-color: #fadbdb;
-      transition: all .5s ease-in-out; }
+      border-bottom: 2px solid #ababb1; }
     .menu__item .sub-menu {
       display: none;
       position: absolute; }
@@ -152,24 +152,15 @@ header {
     font-size: 1em; } }
 
 /*Main*/
-.presentation {
-  text-align: center;
-  padding: 8rem; }
-  .presentation h1 {
-    font-size: 5em;
-    color: #070404;
-    font-weight: bold; }
-  .presentation p {
-    font-size: 3em;
-    color: #070404;
-    font-weight: lighter;
-    font-family: "Rochester", cursive; }
-  .presentation__section {
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    row-gap: 20px;
-    max-width: 800px; }
+.presentation img {
+  max-height: 40vh; }
+
+.presentation__section {
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  row-gap: 20px;
+  max-width: 800px; }
 
 .section__art {
   text-align: center;

@@ -2,19 +2,13 @@
 
 
 .presentation {
-    text-align: center;
-    padding: 8rem;
+    img{
+    max-height: 40vh;
+   
 
-    h1 {
-        @include fontStyle($color-font, 5em, bold)
-    }
 
-    p {
-        @include fontStyle($color-font, 3em,lighter);
-        font-family: $font-secondary;
+}
     
-    }
-
 &__section {
 flex-wrap: wrap;
 width: 100%;
