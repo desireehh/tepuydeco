@@ -6,11 +6,11 @@
   
 
     h1 {
-        @include fontStyle($secondary, 5em, bold)
+        @include fontStyle($secondary, 5em, bold, $font-primary)
     }
 
     p {
-        @include fontStyle($secondary, 3em, lighter);
+        @include fontStyle($secondary, 3em, lighter, $font-primary);
         font-family: $font-secondary;
 
     }

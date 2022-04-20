@@ -18,10 +18,12 @@
 
 }
 
-@mixin fontStyle($color, $fontSize, $fontWeight){
+@mixin fontStyle($color, $fontSize, $fontWeight, $font) {
+    color: $color;
     font-size: $fontSize;
-    color:$color;
-    font-weight: $fontWeight; 
+    font-weight: $fontWeight;
+    font-family: $font;
+
 }
 
 @mixin btn($background-color, $color, $bold) {
@@ -36,5 +38,3 @@
         font-weight: bold;
     }
 }
-
-
