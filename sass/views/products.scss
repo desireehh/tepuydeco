@@ -3,7 +3,7 @@
 
 .presentation {
     text-align: center;
-    padding: 2rem;
+  
 
     h1 {
         @include fontStyle($secondary, 5em, bold)

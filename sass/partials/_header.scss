@@ -7,14 +7,14 @@ header {
 .navbar {
     background-color: $primary;
     width: 100%;
-    padding: 1rem;
+    padding:  1rem;
     align-items: end;
     min-height: 10vh;
     border-bottom: 2px solid #f6f4f4;
     .logo {
-        width: 40%;
+        width: 15%;
         img {
-            width: 180px;
+            width: 120px;
             margin:auto;
 
         }
@@ -24,14 +24,14 @@ header {
 
 .menu {
     min-width: 50%;
-    justify-content: center;
+    justify-content: start;
     
 
     &__item {
-        padding: 1rem;
+        padding: 0 1rem;
         flex-grow: 1;
         font-size: 1.5em;
-        align-items: center;
+       text-align: center;
 
 
         &:hover {

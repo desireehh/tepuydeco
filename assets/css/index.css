@@ -77,19 +77,19 @@ header {
   min-height: 10vh;
   border-bottom: 2px solid #f6f4f4; }
   .navbar .logo {
-    width: 40%; }
+    width: 15%; }
     .navbar .logo img {
-      width: 180px;
+      width: 120px;
       margin: auto; }
 
 .menu {
   min-width: 50%;
-  justify-content: center; }
+  justify-content: start; }
   .menu__item {
-    padding: 1rem;
+    padding: 0 1rem;
     flex-grow: 1;
     font-size: 1.5em;
-    align-items: center; }
+    text-align: center; }
     .menu__item:hover {
       border-bottom: 2px solid #ababb1; }
     .menu__item .sub-menu {
@@ -153,28 +153,33 @@ header {
 
 /*Main*/
 .presentation img {
-  max-height: 40vh; }
-
-.presentation__section {
-  flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
-  row-gap: 20px;
-  max-width: 800px; }
+  max-height: 60vh; }
 
-.section__art {
-  text-align: center;
-  font-size: 1.2em; }
-
-.img-border {
-  border: 1px solid #ababb1;
-  border-radius: 5px;
-  height: 40vh;
-  width: 40vh;
-  margin: 0.5rem 1rem; }
-  .img-border:hover {
-    border: 5px solid #fbfbfb;
-    transition: all .5s ease-in-out; }
+.present-products {
+  width: 100%;
+  padding: 2rem 0;
+  justify-content: space-between;
+  gap: 5rem; }
+  .present-products .products-features {
+    width: 30%;
+    border: 0.5px solid #ababb1;
+    font-size: 1.2em;
+    padding: 2rem; }
+    .present-products .products-features img {
+      width: 98%;
+      padding-bottom: 2rem; }
+    .present-products .products-features p {
+      font-size: 1em;
+      text-align: start; }
+    .present-products .products-features .price {
+      text-align: end; }
+      .present-products .products-features .price span {
+        font-size: 2.5em;
+        line-height: 24px;
+        font-weight: bold;
+        color: #3c0621;
+        float: right; }
 
 .btn {
   background-color: #74747c;
@@ -237,8 +242,7 @@ header {
 
 /*PRODUCTS*/
 .presentation {
-  text-align: center;
-  padding: 2rem; }
+  text-align: center; }
   .presentation h1 {
     font-size: 5em;
     color: #ababb1;
