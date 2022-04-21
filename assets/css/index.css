@@ -75,7 +75,7 @@ header {
   padding: 1rem;
   align-items: end;
   min-height: 10vh;
-  border-bottom: 2px solid #f6f4f4; }
+  border-bottom: 2px solid #efeff4; }
   .navbar .logo {
     width: 15%; }
     .navbar .logo img {
@@ -91,7 +91,7 @@ header {
     font-size: 1.5em;
     text-align: center; }
     .menu__item:hover {
-      border-bottom: 2px solid #ababb1; }
+      border-bottom: 2px solid #efeff4; }
     .menu__item .sub-menu {
       display: none;
       position: absolute; }
@@ -154,7 +154,8 @@ header {
 /*Main*/
 .presentation img {
   width: 100%;
-  max-height: 60vh; }
+  max-height: 60vh;
+  padding: 5px 0; }
 
 .present-products {
   width: 100%;
@@ -163,11 +164,12 @@ header {
   gap: 5rem; }
   .present-products .products-features {
     width: 30%;
-    border: 0.5px solid #ababb1;
+    border: 0.5px solid #efeff4;
     font-size: 1.2em;
     padding: 2rem; }
     .present-products .products-features img {
       width: 98%;
+      max-height: 50%;
       padding-bottom: 2rem; }
     .present-products .products-features p {
       font-size: 1em;
@@ -183,33 +185,34 @@ header {
 
 .btn {
   background-color: #74747c;
-  color: #ababb1;
+  color: #efeff4;
   border-radius: 5px;
   padding: 5px;
   text-align: center;
   display: inline-block; }
 
 .contact {
-  gap: 1rem;
+  gap: 20px;
   align-items: center;
-  /*justify-content: center;*/
-  padding: 2rem 0;
+  justify-content: center;
+  padding: 5rem;
   flex-wrap: wrap; }
-  .contact .sect-img img {
-    max-width: 30%;
-    height: auto; }
-  .contact .sect-form h2 {
+  .contact-img img {
+    height: 80vh;
+    max-width: 80em;
+    border: 2px solid #efeff4; }
+  .contact-form h2 {
     text-align: center;
     padding-bottom: 1em; }
-  .contact .sect-form form {
-    background-color: #dedeed;
+  .contact-form form {
+    border: 2px solid #efeff4;
     padding: 2rem;
     border-radius: 5px;
     width: 25em; }
-    .contact .sect-form form p {
+    .contact-form form p {
       padding-top: 1.5rem;
       padding-bottom: 0.5rem; }
-    .contact .sect-form form input, .contact .sect-form form textarea {
+    .contact-form form input, .contact-form form textarea {
       display: flex;
       align-items: center;
       width: 15em;
@@ -217,7 +220,7 @@ header {
       padding: 0.5rem;
       border-radius: 5px;
       border-color: solid 1px #f7f7fc; }
-    .contact .sect-form form textarea {
+    .contact-form form textarea {
       height: 7em; }
 
 /*MESAS*/
@@ -227,11 +230,9 @@ header {
   justify-content: center;
   padding: 5rem;
   flex-wrap: wrap; }
-  .products .sect-img img {
+  .products-img img {
     height: auto;
-    max-width: 20em;
-    border: 10px solid #816c64;
-    border-radius: 5px; }
+    max-width: 15em; }
   .products .products-article {
     max-width: 30em; }
     .products .products-article .section-prod {
@@ -239,40 +240,33 @@ header {
       padding: 0.5em; }
 
 /*PRODUCTS*/
-.presentation {
-  text-align: center; }
-  .presentation h1 {
-    color: #ababb1;
-    font-size: 5em;
-    font-weight: bold;
-    font-family: "Lato", sans-serif; }
-  .presentation p {
-    color: #ababb1;
-    font-size: 3em;
-    font-weight: lighter;
-    font-family: "Lato", sans-serif;
+.presentation-pages {
+  background-color: #efeff4;
+  width: 100%;
+  max-height: 15vh;
+  padding: 2rem 3rem;
+  font-size: 1.5em; }
+  .presentation-pages p {
+    font-size: 1em;
     font-family: "Rochester", cursive; }
-  .presentation__section {
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-    row-gap: 20px;
-    max-width: 900px; }
 
-.section__art {
-  text-align: center;
-  font-size: 1.2em;
-  padding: 2em; }
-  .section__art .img-border img {
-    border: 10px solid #816c64;
-    border-radius: 5px;
-    height: 40vh;
-    width: 40vh;
-    margin: 0.5rem 1rem;
-    gap: 20em; }
-    .section__art .img-border img:hover {
-      border: 5px solid #fbfbfb;
-      transition: all .5s ease-in-out; }
+.products {
+  width: 100%;
+  padding: 1rem 0;
+  justify-content: space-between;
+  gap: 2rem; }
+  .products .products-line {
+    width: 22%;
+    border: 0.5px solid #efeff4;
+    font-size: 1.2em;
+    padding: 1rem; }
+    .products .products-line img {
+      width: 98%;
+      height: 30vh;
+      padding-bottom: 2rem; }
+    .products .products-line p {
+      font-size: 1em;
+      text-align: start; }
 
 /*ABOUT*/
 .about {

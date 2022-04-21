@@ -3,29 +3,28 @@
 }
 
 .contact{
-    gap: 1rem;
+    gap: 20px;
     align-items: center;
-    /*justify-content: center;*/
-    padding: 2rem 0;
+    justify-content: center;
+    padding: 5rem;
     flex-wrap: wrap;
 
-    .sect-img{
+    &-img{
         img{
-            max-width: 30%;
-            height: auto;
+            height: 80vh;
+            max-width: 80em;
+            border: 2px solid $secondary;
             
         }
     }
-    
 
-    .sect-form{
+    &-form{
         h2{
             text-align: center;
             padding-bottom: 1em;
         } 
         form{
-            background-color: #dedeed;
-            padding: 2rem;
+            border: 2px solid $secondary;            padding: 2rem;
             border-radius: 5px;
             width: 25em;
             

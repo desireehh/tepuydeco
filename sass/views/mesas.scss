@@ -6,13 +6,11 @@
     justify-content: center;
     padding: 5rem;
     flex-wrap: wrap;
-
-    .sect-img{
+    &-img{
         img{
             height: auto;
-            max-width: 20em;
-            border: 10px solid #816c64;
-            border-radius: 5px;
+            max-width: 15em;
+            
 
         }
     }
