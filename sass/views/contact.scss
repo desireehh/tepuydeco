@@ -3,7 +3,7 @@
 }
 
 .contact{
-    gap: 20px;
+    gap: 5rem;
     align-items: center;
     justify-content: center;
     padding: 5rem;
@@ -11,8 +11,8 @@
 
     &-img{
         img{
-            height: 80vh;
-            max-width: 80em;
+            height: 400px;
+            width: 400px;
             border: 2px solid $secondary;
             
         }
@@ -24,9 +24,10 @@
             padding-bottom: 1em;
         } 
         form{
-            border: 2px solid $secondary;            padding: 2rem;
+            border: 2px solid $secondary;            
+            padding: 2rem;
             border-radius: 5px;
-            width: 25em;
+            width: 30em;
             
             p{
                 padding-top: 1.5rem;
@@ -35,7 +36,7 @@
             input{
                 display: flex;
                 align-items: center;
-                width: 15em;
+                width: 20em;
                 height: 2em;
                 padding: 0.5rem;
                 border-radius: 5px;

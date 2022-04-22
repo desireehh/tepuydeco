@@ -2,6 +2,7 @@
 
 header {
     background-color: $primary;
+    border: 2px solid $secondary;
 }
 
 .navbar {
@@ -10,7 +11,7 @@ header {
     padding:  1rem;
     align-items: end;
     min-height: 10vh;
-    border-bottom: 2px solid $secondary;
+    
     .logo {
         width: 15%;
         img {
