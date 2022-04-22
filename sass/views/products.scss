@@ -2,8 +2,8 @@
 .presentation-pages{
     background-color: $secondary;
     width: 100%;
-    max-height: 20vh;
-    padding: 2rem 0;
+    max-height: 15vh;
+    padding: 1rem;
     font-size: 1.5em;
     p{
         font-size: 1em;
@@ -16,29 +16,54 @@
     width: 100%;
     padding: 1rem 0;
     justify-content: space-between;
-    gap:2rem;
+    gap:20px;
    
-.products-line{
-    width: 22%;
+&-present{
+    min-width: 23%;
     border:0.5px solid $secondary;
-    font-size: 1.2em; 
+    font-size: 1em; 
     padding: 1rem;
+    margin: 0;
+
           
     img {
-        width: 98%;
-        height: 30vh;
+        width: 90%;
+        height: auto;
         padding-bottom: 2rem;
     }
 
     p{
-        font-size: 1em;
-        text-align: start;  
+        font-size: 0.8em;
+         
        
     }
-    
-    
    
   
 }
   
 }
+
+/*media queries*/
+
+@media screen and (max-width: 970px){
+     
+
+.products{
+   
+    justify-content: center;
+    &-present{
+        min-width: 50%;
+       
+}
+}
+}
+
+@media screen and (max-width: 670px) {
+
+    .presentation-pages{
+        text-align: center;
+        font-size: 1.2em;        
+    }
+
+}
+

@@ -136,7 +136,7 @@ header {
     flex-direction: row;
     border-bottom: 2px solid #fbfbfb;
     justify-content: space-between;
-    height: 15vh;
+    max-height: 15vh;
     width: 100%; }
   .footer__block {
     text-align: center;
@@ -168,13 +168,15 @@ header {
   gap: 4rem; }
   .present-products .products-features {
     width: 30%;
+    max-width: 300px;
+    min-width: 200px;
     border: 0.5px solid #efeff4;
     font-size: 1.2em;
     padding: 2rem; }
     .present-products .products-features img {
       width: 98%;
       max-height: 50%;
-      padding-bottom: 2rem; }
+      padding-bottom: 1rem; }
     .present-products .products-features p {
       font-size: 1em;
       text-align: start; }
@@ -182,10 +184,18 @@ header {
       text-align: end; }
       .present-products .products-features .price span {
         font-size: 2.5em;
-        line-height: 24px;
         font-weight: bold;
         color: #3c0621;
         float: right; }
+
+/*Media queries*/
+@media screen and (max-width: 790px) {
+  .present-products {
+    justify-content: center;
+    row-gap: 2rem;
+    column-gap: 0; }
+    .present-products .products-features {
+      min-width: 60%; } }
 
 .btn {
   background-color: #74747c;
@@ -196,15 +206,17 @@ header {
   display: inline-block; }
 
 .contact {
-  gap: 5rem;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
-  padding: 5rem;
+  padding: 1rem;
   flex-wrap: wrap; }
-  .contact-img img {
-    height: 400px;
-    width: 400px;
-    border: 2px solid #efeff4; }
+  .contact-img {
+    vertical-align: center; }
+    .contact-img img {
+      min-width: 300px;
+      max-width: 400px;
+      border: 2px solid #efeff4; }
   .contact-form h2 {
     text-align: center;
     padding-bottom: 1em; }
@@ -212,7 +224,8 @@ header {
     border: 2px solid #efeff4;
     padding: 2rem;
     border-radius: 5px;
-    width: 30em; }
+    max-width: 30em;
+    min-width: 15em; }
     .contact-form form p {
       padding-top: 1.5rem;
       padding-bottom: 0.5rem; }
@@ -232,7 +245,7 @@ header {
   gap: 2em;
   align-items: center;
   justify-content: center;
-  padding: 5rem;
+  padding: 1rem;
   flex-wrap: wrap; }
   .products-line .sect-img img {
     height: 300px;
@@ -242,23 +255,37 @@ header {
   .products-line .products-article {
     width: 50vw; }
     .products-line .products-article .section-prod {
-      gap: 2em;
-      padding: 0.5em;
+      flex-wrap: nowrap;
+      gap: 1rem;
+      padding: 2rem;
       border-bottom: 0.5px solid #efeff4; }
       .products-line .products-article .section-prod img {
-        width: 100px;
-        height: 100px;
-        border: 0.5px solid #efeff4;
-        padding: 1rem; }
+        width: 200px;
+        height: 200px;
+        border: 0.5px solid #efeff4; }
       .products-line .products-article .section-prod .description {
         font-size: 1.2em; }
+
+@media screen and (max-width: 680px) {
+  .sect-img {
+    display: none; }
+  .products-article {
+    width: 100vw; }
+    .products-article .section-prod {
+      flex-wrap: wrap;
+      width: 100%; }
+      .products-article .section-prod img {
+        width: 300px;
+        height: 300px; }
+      .products-article .section-prod .description {
+        font-size: 1em; } }
 
 /*PRODUCTS*/
 .presentation-pages {
   background-color: #efeff4;
   width: 100%;
-  max-height: 20vh;
-  padding: 2rem 0;
+  max-height: 15vh;
+  padding: 1rem;
   font-size: 1.5em; }
   .presentation-pages p {
     font-size: 1em;
@@ -268,19 +295,31 @@ header {
   width: 100%;
   padding: 1rem 0;
   justify-content: space-between;
-  gap: 2rem; }
-  .products .products-line {
-    width: 22%;
+  gap: 20px; }
+  .products-present {
+    min-width: 23%;
     border: 0.5px solid #efeff4;
-    font-size: 1.2em;
-    padding: 1rem; }
-    .products .products-line img {
-      width: 98%;
-      height: 30vh;
+    font-size: 1em;
+    padding: 1rem;
+    margin: 0; }
+    .products-present img {
+      width: 90%;
+      height: auto;
       padding-bottom: 2rem; }
-    .products .products-line p {
-      font-size: 1em;
-      text-align: start; }
+    .products-present p {
+      font-size: 0.8em; }
+
+/*media queries*/
+@media screen and (max-width: 970px) {
+  .products {
+    justify-content: center; }
+    .products-present {
+      min-width: 50%; } }
+
+@media screen and (max-width: 670px) {
+  .presentation-pages {
+    text-align: center;
+    font-size: 1.2em; } }
 
 /*ABOUT*/
 .about {
