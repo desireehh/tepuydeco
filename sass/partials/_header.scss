@@ -51,6 +51,7 @@ header {
 
 .menu__item:hover .sub-menu {
     display: block;
+    transition: all .5s ease-in-out;
 
     .sub-menu__link {
         background-color: #fbfbfb;
@@ -80,16 +81,20 @@ header {
 
 
 }
-
-@media screen and (max-width: 412px) {
-
-
-    .menu__item {
-        font-size: 1.2em;
-
-        .sub-menu__link {
-            font-size: 0.6em;
+@media screen and (max-width: 460px) {
+    .menu {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        background-color: $secondary;
+        .menu__item{
+            border: 2px solid $primary;
+            padding: 5px;
+            
         }
-
     }
-} 
+    
+
+
+}
+ 

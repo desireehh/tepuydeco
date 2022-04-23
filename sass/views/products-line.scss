@@ -1,68 +1,74 @@
 /*LINEA DE PRODUCTOS*/
 
-.products-line{
+.products-line {
     gap: 2em;
-    align-items:center;
+    align-items: center;
     justify-content: center;
     padding: 1rem;
     flex-wrap: wrap;
-    .sect-img{
-        img{
+
+    .sect-img {
+        img {
             height: 300px;
             width: 300px;
-            border:0.5px solid $secondary;
+            border: 0.5px solid $secondary;
             padding: 1rem;
-            
+
 
         }
     }
-    .products-article{
+
+    .products-article {
         width: 50vw;
-        .section-prod{
-            flex-wrap: nowrap;
+        
+
+        .section-prod {
             gap: 1rem;
-            padding: 2rem;
+            padding: 1rem;
             border-bottom: 0.5px solid $secondary;
-           
-            img{
+            justify-content: center;
+            
+
+            img {
                 width: 200px;
                 height: 200px;
-                border:0.5px solid $secondary;
-                
-            }
-            .description{
-                font-size: 1.2em;
+                border: 0.5px solid $secondary;
+
             }
 
-         
+            .description {
+                font-size: 1.2em;
+                width: 250px;
+                padding: 1rem 0;
+              
+
+
+
+            }
+
+
         }
 
-    }  
+    }
 }
 
 
 
 @media screen and (max-width: 680px) {
-    .sect-img{
+
+    .sect-img {
         display: none;
     }
+}
+  
+@media screen and (max-width: 450px) {
+  .container{
+      max-width: 400px;
+  }
+}
 
-        .products-article{
-            width: 100vw;
-            .section-prod{
-                flex-wrap: wrap;
-                width: 100%;               
-                img{
-                    width: 300px;
-                    height: 300px;
-                                       
-                }
-                .description{
-                    font-size: 1em;
-                }
-    
-             
-            }
-    
-        }  
+@media screen and (max-width: 360px) {
+    .container{
+        max-width: 360px;
+    }
 }
